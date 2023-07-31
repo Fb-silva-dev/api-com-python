@@ -95,7 +95,4 @@ def alterar_status_por_id(id):
     aluno_encontrado['ativo'] = status_aluno
     return jsonify(aluno_encontrado)
 
- 
-
-
 app.run(port=5000,host='localhost',debug=True)
